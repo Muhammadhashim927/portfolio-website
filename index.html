@@ -97,6 +97,13 @@
         text-align: center;
         padding: 20px;
       }
+      .borders-none {
+        text-decoration: none;
+        color: white;
+      }
+      .borders-none:hover {
+        text-decoration: underline;
+      }
 
       h1 {
         font-size: 3rem;
@@ -216,7 +223,7 @@
     <!-- HERO -->
     <header id="home">
       <h1>Hi, I'm M.Hashim</h1>
-      <h2>World Class Web Developer with AI</h2>
+      <h2>Web Developer with AI</h2>
       <p>I build modern, fast and intelligent websites.</p>
       <button class="btn" onclick="scrollToContact()">Hire Me</button>
     </header>
@@ -226,23 +233,49 @@
       <h2>My Projects</h2>
       <div class="projects">
         <div class="card">
-          <h3>Tiny URL Website</h3>
+          <a href="https://celebrated-selkie-412fdd.netlify.app/" class="borders-none"><h3>Tiny URL Website</h3></a>
           <p>Smart URL shortener with modern UI.</p>
+        </div>
+        <div class="card">
+          <a href="https://techsmart.lovable.app/#products" class="borders-none"
+            ><h3>Tech Univers</h3></a
+          >
+          <p>Smart and modern Ecommerece store.</p>
         </div>
 
         <div class="card">
-          <h3>Amazon Clone</h3>
+          <a
+            href="https://celebrated-selkie-412fdd.netlify.app/"
+            class="borders-none"
+            ><h3>Amazon Clone</h3></a
+          >
           <p>Modern ecommerce responsive design.</p>
         </div>
 
         <div class="card">
-          <h3>Weather App</h3>
+          <a
+            href="https://spontaneous-kheer-01f5a0.netlify.app/"
+            class="borders-none"
+            ><h3>Weather App</h3></a
+          >
           <p>Real-time weather API project.</p>
         </div>
 
         <div class="card">
-          <h3>Lavashack Website</h3>
+          <a
+            href="https://celebrated-selkie-412fdd.netlify.app/"
+            class="borders-none"
+            ><h3>Lavashack Website</h3></a
+          >
           <p>Business responsive website.</p>
+        </div>
+             <div class="card">
+          <a
+            href="https://celebrated-selkie-412fdd.netlify.app/"
+            class="borders-none"
+            ><h3>Netflix clons</h3></a
+          >
+          <p>mobile responsive website.</p>
         </div>
         <div class="about">
           <div>
@@ -275,7 +308,10 @@
       <h2>Contact Me</h2>
       <div id="root"></div>
     </section>
-
+    <br />
+  <div class="img">
+    <img src="./image.png" alt="" width="1%" height="1%">
+  </div>
     <footer>© 2026 M.Hashim Portfolio</footer>
 
     <script>
